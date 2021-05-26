@@ -6,7 +6,7 @@
 
 - svamp 
   - dir: data/mawps-asdiv-a_svamp/
-  - csv, json format 둘 다 가능, (format: json)
+  - train, dev (csv, json format 둘 다 가능 - default format: json)
   - label.json: 정답지(gold answer)
 
 
