@@ -21,6 +21,8 @@
   - BERT
   - Roberta(Default)
   - Word2vec
+  
+  
   사전 학습 모델을 통해 얻은 단어 혹은 문장 임베딩으로 Encoder를 통과시킨 후 얻은 context vector를 
   Decoder layer에 전달
   
