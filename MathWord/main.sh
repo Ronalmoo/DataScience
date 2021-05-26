@@ -1,0 +1,15 @@
+ python3 main.py \
+       -mode test \
+       -gpu 0 \
+       -embedding roberta \
+       -emb_name roberta-base \
+       -emb1_size 768 \
+       -hidden_size 256 \
+       -data_path data/ \
+       -depth 2 \
+       -lr 0.0002 \
+       -emb_lr 8e-6 \
+       -batch_size 8 \
+       -epochs 50 \
+       -dataset mawps-asdiv-a_svamp \
+       -save_model
