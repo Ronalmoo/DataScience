@@ -11,6 +11,10 @@
 
 
   ### Examples
+
+각 문제마다 질문("Question")과 계산에 사용되는 숫자("Numbers"), 질문에 해당하는 수식("Equation")을 입력으로 사용
+
+
   ![Screenshot from 2021-05-17 13-19-34](https://user-images.githubusercontent.com/44221520/118432097-bf32bd80-b712-11eb-8bb2-96d9aea200c7.png)
 
 ## Model
@@ -23,14 +27,17 @@
   - Word2vec
   
   
-  사전 학습 모델을 통해 얻은 단어 혹은 문장 임베딩으로 Encoder를 통과시킨 후 얻은 context vector를 
-  Decoder layer에 전달
+  사전 학습 모델을 통해 얻은 임베딩으로 Encoder를 통과시킨 후 얻은 context vector를  Decoder layer에 전달하여 수식을 생성
+  생성된 수식을 그대로 계산하여 얻은 답을 실제 ground truth와 비교
+
   
 
 ## Weights for inference(google cloud)
 ### components
 #### 1. Vocabulary for each question and equation
+- 질문을 파악하기 위한 vocabulary set과 수식을 이해하기 위한 vocabulary set
 #### 2. Model weights
+미리 학습시킨 가중치 link
 
 https://drive.google.com/drive/folders/1U6N95jkWHjsZy-jlnaXGpLygxyssGAF7?usp=sharing
 
