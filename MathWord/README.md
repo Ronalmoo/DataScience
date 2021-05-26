@@ -87,6 +87,8 @@ python3 main.py \
        -epochs 50 \
        -dataset mawps-asdiv-a_svamp \
        -save_model
+
+-mode를 train으로 변경하면 학습모드로 변경됨
 ```
 
 
