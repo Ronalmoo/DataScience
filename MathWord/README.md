@@ -1,12 +1,12 @@
 # MathWords
 
-모델의 문제를 읽고 수식을 이해하여 생성하는 모델에 대한 예시 코드
+모델의 문제를 읽고 수식을 이해하여 생성하는 모델에 대한 코드
 
 ## Datasets
 
 - svamp 
   - dir: data/mawps-asdiv-a_svamp/
-  - csv, json format 둘 다 가능, (대회 format => json)
+  - csv, json format 둘 다 가능, (format: json)
   - label.json: 정답지(gold answer)
 
 
